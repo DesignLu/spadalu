@@ -1,0 +1,213 @@
+h3 {
+    font-family:Arial, Helvetica;
+}
+
+h4 {
+    margin-top: -25%;
+    color: rgb(68, 62, 62);
+}
+
+@media (max-width: 995px) {
+    #titlee {
+        text-align: center;
+    }
+}
+
+
+
+.logo {
+    width: 10%;
+    padding-right: 35%;
+    padding-top: -3%;
+}
+
+#menu-h {
+    font-size: 20px;
+    list-style: none;
+    background-color: transparent;
+    text-align: right;
+    padding-right: 20%;
+    padding-top: -3%;
+    margin-right: 60px;
+       
+} 
+
+#menu-h li {
+    display:inline;
+    padding-right: 50px;
+    padding-top: 5%;
+}
+
+#menu-h li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+#menu-h li a:hover {
+    background-color: pink;
+}
+
+
+
+
+.image {
+    background-image: url("Images/beautydeco.jpg");
+    height: 900px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite;
+}
+
+
+
+@keyframes change {
+    20%
+    {
+        background-image: url(Images/book.webp);
+    }
+    40%
+    {
+        background-image: url(Images/essence.jpeg);
+    }
+    20%
+    {
+        background-image: url(Images/SPA-theme-pink-flowers-wood-board_m.webp);
+    }
+}
+
+
+
+.square {
+    background: rgba(223, 225, 228, 0.5);
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.title {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.content a{
+    background: rgb(153, 153, 2);
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.content a:hover {
+    background: purple;
+    color: wheat;
+}
+
+
+.wrapper {
+    
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 600px;
+    padding-right: 130px;
+    background-color: antiquewhite;
+    margin: 5px 30px 5px 0px;
+    width: 61.2%;
+
+}
+
+.girl {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    
+}
+
+li {
+    font-size: 18px;
+}
+
+.text-box {
+    padding-top: 2%;
+}
+
+.fixedimage {
+    background: rgba(145, 139, 139, 0.7)url(Images/rose.webp);
+    background-blend-mode: hard-light;
+    height: 900px ;
+    width: 68%;
+    padding-left: 600px;  
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+
+.lovephrase {
+    padding-top: 20%;
+    padding-right: 44%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.video {
+    width: 50%;
+    position: relative;
+    padding-right: 45%;
+}
+
+.massagetype {
+    padding-right: 44%;
+    text-align: center;
+}
+
+.Relax {
+    padding-right: 44%;
+    text-align: center;
+}
+
+
+
+#footer {
+    text-align: center;
+    padding: 3% 0 0 3%;
+}
+
+.social-icon {
+    padding: 20px 17px;
+    
+}
+
+
+
+  
