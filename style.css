@@ -14,6 +14,7 @@ h3 {
 
 h4 {
     color: rgb(68, 62, 62);
+    
 }
 
 p {
@@ -66,10 +67,6 @@ nav .nav-list .nav-link {
 .bg-dark {
     background-color: transparent !important;
 
-}
-
-.shadow {
-    background-color: #b69955;
 }
 
 
@@ -685,13 +682,21 @@ textarea {
 @media (max-width: 675px) {
 
 
-    h4 {
-        font-size: 17px;
+h1 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 8px;
+}
+
+h6 {
+    font-size: 10px;
 }
 
 
     nav .navbar-brand {
-        width: 60%;
+        width: 70%;
         margin-top: 20px;
     }
 
@@ -699,7 +704,7 @@ textarea {
         display: grid;
         position: absolute;
         background: #404040;
-        width: 100%;
+        width: 80%;
         top: 75px;
         left: 0;
         transform: translateY(-100%);
@@ -731,8 +736,7 @@ nav .navbar-toggler .bar {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background: black;
-   
+    background: black; 
     border-radius: 10%;
     transition: .4s;
 }
@@ -778,12 +782,16 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 
 #square {
     background: rgba(223, 225, 228, 0.5);
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
     position: relative;
     margin-top: -80%;
     left: 52%;
     transform: translate(-50%, -50%);
+}
+
+.content, h4 {
+    font-size: 12px;
 }
 
 .title {
@@ -791,6 +799,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     padding-bottom: 30px;
     text-align: center;
     margin-left: 4%;
+    font-size: 20px;
 }
 
 .content {
@@ -803,11 +812,13 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 }
 
 
+
 .content a{
     background: rgb(153, 153, 2);
-    padding: 10px 14px;
+    padding: 10px 12px;
+ 
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -901,6 +912,7 @@ li {
     padding-right: 4%;
     padding-bottom: 2%;
     text-align: center;
+    font-size: 15px;
 }
 
 .video {
@@ -932,70 +944,71 @@ li {
     }
 
 .sec-heading {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .sec-heading h6 {
     font-family: allura;
-    font-weight: 900;
-    font-size: 80px;
+    font-weight: 500;
+    font-size: 40px;
 }
 .single-box {
-    width: 590px;
-    height: 300px;
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
     border: 3px solid #e6f0fa;
     border-radius: 20px;
     background: #fff;
 }
 .img-area {
-    margin: 45px 10px 20px 0;
+    margin: 35px 10px 10px 0;
 }
 .single-box img {
-    max-width: 100px;
+    max-width: 80px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .single-box h4 {
-    font-weight: 500;
+    font-weight: 300;
     margin: 0;
     font-family: 'Allura', cursive;
-    font-size: 25px;
+    font-size: 10px;
 }
 .single-box {
     overflow: hidden
 }
 .single-box .img-area {
-    width: 30%;
+    width: 60%;
     float: left;
     margin: 0
 }
 .single-box .content {
-    width: 70%;
+    width: 60%;
     float: left;
-    padding-left: 60px;
+    padding-left: 40px;
 
 }
 .single-box .test_p {
-    font-size: 15px;
-    margin: 10px 0 25px;
+    font-size: 10px;
+    margin: 7px 0 10px;
     line-height: 2.3;
 }
 .testi-carousel-three .single-box {
     border: 0;
-    padding: 0 50px;
+    padding: 0 30px;
 
 }
 .testi-carousel .owl-dots, .clients-carousel .owl-dots, .testi-carousel-three .owl-dots {
     position: absolute;
-    left: 0;
+    left: 35px;
     right: 0;
     bottom: -60px;
     text-align: center;
-    width: 100%;
+    width: 80%;
 
 }
 .testi-carousel .owl-dot, .clients-carousel .owl-dot, .testi-carousel-three .owl-dot {
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
     background-color: #ddd;
     display: inline-block;
     margin: 0 6px;
@@ -1259,17 +1272,18 @@ textarea {
     text-align: center;
  
     height: 100px;
-    width: 480px;
+    width: 340px;
+    margin-left: 0px;
 }
 
 .social-icon {
     padding: 12px;
-    color: #fcfcfc;
+    color: #685858;
 }
 
 .Copyright {
     color:#ffffff;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
