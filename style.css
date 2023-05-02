@@ -786,7 +786,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     width: 300px;
     position: relative;
     margin-top: -80%;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -1101,7 +1101,7 @@ li {
 
 .contact_img {
     background-image: url("Images/rosecutted.jpg");
-    width: 480px;
+    width: 380px;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -1122,8 +1122,8 @@ li {
     float: left;
     padding-bottom: 2%;
     margin-top: 15%;
-    margin-left: 5%;
-    width: 400px;
+    margin-left: 1%;
+    width: 380px;
 
 }
 
@@ -1157,8 +1157,8 @@ li {
 
 .col2 {
     float: right;
-    margin-right: 15%;
-    margin-top: 60%;
+    margin-right: 4%;
+    margin-top: 80%;
 }
 
 .Questions {
@@ -1272,7 +1272,7 @@ textarea {
     text-align: center;
  
     height: 100px;
-    width: 340px;
+    width: 380px;
     margin-left: 0px;
 }
 
