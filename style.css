@@ -744,7 +744,10 @@ nav .navbar-toggler .bar {
 
 .bg-dark {
     background-color: rgba(255, 255, 255, 0.548) !important;
-
+}
+	
+.navbarSupportedContent {
+    background-color: rgba(255, 255, 255, 0.829);
 }
 
 
