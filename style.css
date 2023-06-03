@@ -70,6 +70,8 @@ nav .nav-list .nav-link {
 }
 
 
+
+
 header {
     background-image: url("Images/beautydeco.jpg");
     height: 100vh;
@@ -746,9 +748,18 @@ nav .navbar-toggler .bar {
     background-color: rgba(255, 255, 255, 0.548) !important;
 }
 	
-.navbarSupportedContent {
-    background-color: rgba(255, 255, 255, 0.829);
-}
+    .navbar-toggler {
+        background-color: rgb(248, 216, 216);
+    }
+
+
+
+    #navbarSupportedContent {
+        background-color: rgba(240, 128, 147, 0.959);
+        width: 20px;
+    }
+    
+	
 
 
 input {
