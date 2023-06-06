@@ -730,7 +730,8 @@ nav .navbar-toggler {
   
     display: none;
     height: min-content;
-    margin: 18px -10px 0 0;
+    margin-top: -50px;
+    margin-left: 290px; 
     cursor: pointer;
 }
 
