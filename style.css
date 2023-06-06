@@ -730,7 +730,7 @@ nav .navbar-toggler {
   
     display: none;
     height: min-content;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 290px; 
     cursor: pointer;
 }
@@ -750,13 +750,13 @@ nav .navbar-toggler .bar {
 }
 	
     .navbar-toggler {
-        background-color: rgb(245, 232, 232);
+    	  background-color: rgba(253, 249, 249, 0.315);
     }
 
 
 
     #navbarSupportedContent {
-        background-color: rgba(250, 232, 235, 0.959);
+         background-color: rgba(253, 249, 249, 0.966);
         width: 20px;
     }
     
