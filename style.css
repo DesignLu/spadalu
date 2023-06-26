@@ -60,8 +60,13 @@ nav .nav-list .nav-link {
     color: black;
     font-size: 18px;
     font-weight: 500;
- 
-    
+}
+
+.navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
 }
 
 .bg-dark {
