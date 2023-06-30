@@ -390,7 +390,7 @@ li {
     border: 2px solid rgb(173, 133, 30);
 	padding: 10px 20px 40px;
 	border-radius: 20px;
-	background: rgb(236, 224, 208);
+	background: rgb(247 246 243 / 48%);
     margin-bottom: 3%;
 
 }
@@ -1298,7 +1298,7 @@ textarea {
     text-align: center;
     height: 100px;
     width: 100%;
-    margin-top: 14%;
+    margin-top: 15%;
     margin-left: 0px;
 }
 
