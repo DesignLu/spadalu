@@ -40,8 +40,8 @@ nav .navbar-brand {
 }
 
 .nav-brand2 {
-    width:30%;
-    margin-right: 40%;
+    width:20%;
+    margin-right: 60%;
 }
 
 .nav-brand3 {
@@ -718,7 +718,9 @@ h6 {
     }
 
   .nav-brand2 {
-    width:40%;
+    width:35%;
+    margin-right: 61%;
+    margin-top: 5%;
       
     }
     
