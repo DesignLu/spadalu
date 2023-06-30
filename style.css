@@ -1296,9 +1296,9 @@ textarea {
 #footer {
     background-color: rgba(145, 137, 137, 0.466);
     text-align: center;
- 
     height: 100px;
     width: 100%;
+    margin-top: 14%;
     margin-left: 0px;
 }
 
