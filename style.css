@@ -39,6 +39,16 @@ nav .navbar-brand {
     letter-spacing: .5px;
 }
 
+.nav-brand2 {
+    width:30%;
+    margin-right: 40%;
+}
+
+.nav-brand3 {
+    width: 17%;
+    margin-right: 80%;
+}
+
 nav .nav-list {
     display: flex;
     
@@ -707,6 +717,17 @@ h6 {
         margin-top: 20px;
     }
 
+  .nav-brand2 {
+    width:40%;
+      
+    }
+    
+    .nav-brand3 {
+        width: 30%;
+        padding-top: 8%;
+        
+    }
+
     nav .nav-list {
         display: grid;
         position: absolute;
@@ -754,14 +775,13 @@ nav .navbar-toggler .bar {
     background-color: rgba(255, 255, 255, 0.548) !important;
 }
 	
-    .navbar-toggler {
-    	  background-color: rgba(253, 249, 249, 0.315);
-    }
+.navbar-toggler {
+    background-color: rgba(253, 249, 249, 0.315);
+}
 
 
-
-    #navbarSupportedContent {
-         background-color: rgba(253, 249, 249, 0.966);
+#navbarSupportedContent {
+	background-color: rgba(253, 249, 249, 0.966);
         width: 20px;
     }
     
